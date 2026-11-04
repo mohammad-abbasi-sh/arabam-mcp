@@ -1,0 +1,52 @@
+[
+ {
+  "SelectedCategory": {
+   "FriendlyUrl": "BMW",
+   "Url": null,
+   "SubCategories": [
+    {
+     "Name": "1 Serisi",
+     "RelativeUrl": "ikinci-el/otomobil/bmw-1-serisi",
+     "Count": 1110
+    },
+    {
+     "Name": "2 Serisi",
+     "RelativeUrl": "ikinci-el/otomobil/bmw-2-serisi",
+     "Count": 331
+    },
+    {
+     "Name": "3 Serisi",
+     "RelativeUrl": "ikinci-el/otomobil/bmw-3-serisi",
+     "Count": 3645
+    },
+    {
+     "Name": "4 Serisi",
+     "RelativeUrl": "ikinci-el/otomobil/bmw-4-serisi",
+     "Count": 433
+    }
+   ],
+   "ParentId": 18,
+   "BreadCrumb": "BMW",
+   "Icon": null,
+   "IsBrand": true,
+   "AbsoluteUrl": "otomobil/bmw",
+   "RelativeUrl": "ikinci-el/otomobil/bmw",
+   "Skip": 0,
+   "Take": 0,
+   "DisplayOrder": 0,
+   "Level": 2,
+   "Querystring": null,
+   "BrandId": 3,
+   "Id": 23118,
+   "Name": "BMW",
+   "DisplayValue": "BMW",
+   "Count": 8585,
+   "FormattedCount": "8.585",
+   "Selected": true,
+   "Value": null,
+   "Order": 0,
+   "Unit": null,
+   "Extension": null
+  }
+ }
+]
