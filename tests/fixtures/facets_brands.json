@@ -1,0 +1,55 @@
+[
+ {
+  "Name": "Tüm Kategoriler",
+  "Items": [
+   {
+    "FriendlyUrl": "Otomobil",
+    "Url": null,
+    "SubCategories": [
+     {
+      "Name": "Alfa Romeo",
+      "RelativeUrl": "ikinci-el/otomobil/alfa-romeo",
+      "Count": 285
+     },
+     {
+      "Name": "Alpine",
+      "RelativeUrl": "ikinci-el/otomobil/alpine",
+      "Count": 2
+     },
+     {
+      "Name": "Arora",
+      "RelativeUrl": "ikinci-el/otomobil/arora",
+      "Count": 2
+     },
+     {
+      "Name": "Aston Martin",
+      "RelativeUrl": "ikinci-el/otomobil/aston-martin",
+      "Count": 2
+     }
+    ],
+    "ParentId": 18,
+    "BreadCrumb": null,
+    "Icon": null,
+    "IsBrand": false,
+    "AbsoluteUrl": "otomobil",
+    "RelativeUrl": "ikinci-el/otomobil",
+    "Skip": 0,
+    "Take": 0,
+    "DisplayOrder": 0,
+    "Level": 1,
+    "Querystring": null,
+    "BrandId": null,
+    "Id": 18,
+    "Name": "Otomobil",
+    "DisplayValue": "Otomobil",
+    "Count": 176000,
+    "FormattedCount": "176.000",
+    "Selected": true,
+    "Value": null,
+    "Order": 0,
+    "Unit": null,
+    "Extension": null
+   }
+  ]
+ }
+]
