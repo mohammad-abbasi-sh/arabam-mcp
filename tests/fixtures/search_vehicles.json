@@ -1,0 +1,89 @@
+[
+ {
+  "@context": "https://schema.org",
+  "@type": "Vehicle",
+  "itemCondition": "https://schema.org/UsedCondition",
+  "url": "https://www.arabam.com/ilan/galeriden-satilik-honda-civic-1-4-s/klimali-1-4is/45291610",
+  "mileageFromOdometer": {
+   "@type": "QuantitativeValue",
+   "value": 330000,
+   "unitCode": "KMT"
+  },
+  "manufacturer": "Honda",
+  "brand": {
+   "@type": "Brand",
+   "name": "Honda"
+  },
+  "vehicleModelDate": 1998,
+  "productionDate": 1998,
+  "name": "KLİMALİ 1.4iS ",
+  "description": "KLİMALİ 1.4iS ",
+  "image": "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291610/ce430d51-9bcc-42df-9a2a-1d1bc7a7b8a0_image_for_silan_45291610_120x90.jpg",
+  "driveWheelConfiguration": "Önden Çekiş",
+  "offers": {
+   "@type": "Offer",
+   "availability": "https://schema.org/InStock",
+   "priceCurrency": "TRY",
+   "price": 425000,
+   "url": "https://www.arabam.com/ilan/galeriden-satilik-honda-civic-1-4-s/klimali-1-4is/45291610"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Vehicle",
+  "itemCondition": "https://schema.org/UsedCondition",
+  "url": "https://www.arabam.com/ilan/galeriden-satilik-volkswagen-passat-1-8-t-comfortline/uygun-rakam-masrafsiz-1-8t-ici-bej/45291330",
+  "mileageFromOdometer": {
+   "@type": "QuantitativeValue",
+   "value": 400000,
+   "unitCode": "KMT"
+  },
+  "manufacturer": "Volkswagen",
+  "brand": {
+   "@type": "Brand",
+   "name": "Volkswagen"
+  },
+  "vehicleModelDate": 1998,
+  "productionDate": 1998,
+  "name": "UYGUN RAKAM MASRAFSIZ 1.8T İÇİ BEJ",
+  "description": "UYGUN RAKAM MASRAFSIZ 1.8T İÇİ BEJ",
+  "image": "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291330/ea90c92c-5401-4e64-89a2-c58cb1e954cd_image_for_silan_45291330_120x90.jpg",
+  "driveWheelConfiguration": "Önden Çekiş",
+  "offers": {
+   "@type": "Offer",
+   "availability": "https://schema.org/InStock",
+   "priceCurrency": "TRY",
+   "price": 349000,
+   "url": "https://www.arabam.com/ilan/galeriden-satilik-volkswagen-passat-1-8-t-comfortline/uygun-rakam-masrafsiz-1-8t-ici-bej/45291330"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Vehicle",
+  "itemCondition": "https://schema.org/UsedCondition",
+  "url": "https://www.arabam.com/ilan/galeriden-satilik-opel-astra-1-6-cdti-edition-plus/opel-yetkili-bayiinden-2016-opel-astra-otomatik-vites/45291187",
+  "mileageFromOdometer": {
+   "@type": "QuantitativeValue",
+   "value": 257000,
+   "unitCode": "KMT"
+  },
+  "manufacturer": "Opel",
+  "brand": {
+   "@type": "Brand",
+   "name": "Opel"
+  },
+  "vehicleModelDate": 2016,
+  "productionDate": 2016,
+  "name": "OPEL YETKİLİ BAYİİNDEN 2016 OPEL ASTRA OTOMATİK VİTES",
+  "description": "OPEL YETKİLİ BAYİİNDEN 2016 OPEL ASTRA OTOMATİK VİTES",
+  "image": "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291187/90de82e8-3c9f-475a-9e59-2e2391f83c6b_image_for_silan_45291187_120x90.jpg",
+  "driveWheelConfiguration": "Önden Çekiş",
+  "offers": {
+   "@type": "Offer",
+   "availability": "https://schema.org/InStock",
+   "priceCurrency": "TRY",
+   "price": 789900,
+   "url": "https://www.arabam.com/ilan/galeriden-satilik-opel-astra-1-6-cdti-edition-plus/opel-yetkili-bayiinden-2016-opel-astra-otomatik-vites/45291187"
+  }
+ }
+]
