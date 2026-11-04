@@ -1,0 +1,46 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Car",
+ "brand": "Honda",
+ "model": "Civic",
+ "itemCondition": "used",
+ "manufacturer": "Honda",
+ "name": "Galeriden Honda Civic 1.4 S 1998 Model Bursa 330.000 KM Lacivert - 45291610 | arabam.com",
+ "description": "Galeriden Honda Civic 1.4 S 1998 Model Otomobil ilanı arabam.com'da. Galeriden Honda Civic 1.4 S 1998 Model Otomobil ilanını hemen sitemizden inceleyin. #45291610",
+ "image": [
+  "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291610/ce430d51-9bcc-42df-9a2a-1d1bc7a7b8a0_image_for_silan_45291610_580x435.jpg",
+  "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291610/e246e8ab-de57-4e79-b1d3-5b37c82d6a10_image_for_silan_45291610_580x435.jpg",
+  "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291610/6043a860-c6cf-451e-a1e0-61c6575012cd_image_for_silan_45291610_580x435.jpg",
+  "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291610/56aad6a8-9642-4dd6-9f2e-de7d94761904_image_for_silan_45291610_580x435.jpg",
+  "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291610/d144683e-9817-4ae3-979e-cadf14157b77_image_for_silan_45291610_580x435.jpg",
+  "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291610/9359cc52-873b-48c3-a423-62cfd0eaf9e5_image_for_silan_45291610_580x435.jpg",
+  "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291610/0d5a1698-69fe-47c1-b3dd-a3acfef468cc_image_for_silan_45291610_580x435.jpg",
+  "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291610/c12169d9-5adf-43f2-b327-119481de386e_image_for_silan_45291610_580x435.jpg",
+  "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291610/b980814d-4b9f-43af-91c3-53a59d706901_image_for_silan_45291610_580x435.jpg",
+  "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291610/3f865d5a-349d-4419-8049-1892b40c1f9c_image_for_silan_45291610_580x435.jpg",
+  "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291610/16dcda03-9ab0-4164-aa07-2b1cc26f4d03_image_for_silan_45291610_580x435.jpg",
+  "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291610/a7f6f110-4ef8-4195-81a0-ca6a8d029214_image_for_silan_45291610_580x435.jpg",
+  "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291610/d9093d9c-9b25-42e1-b3ee-fe400c51a146_image_for_silan_45291610_580x435.jpg",
+  "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291610/7ba25374-8e7d-44a8-b663-5dc13674e5ed_image_for_silan_45291610_580x435.jpg",
+  "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291610/be55928c-825f-494a-b43f-065384af9e2b_image_for_silan_45291610_580x435.jpg",
+  "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291610/6c1c63fe-e09c-4d1e-b8a0-7e445ac483a4_image_for_silan_45291610_580x435.jpg",
+  "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291610/82e0f22e-f809-4727-8019-eeb8fcb524a4_image_for_silan_45291610_580x435.jpg",
+  "https://arbstorage.mncdn.com/ilanfotograflari/2026/11/04/45291610/f8c53aa1-e8ac-4147-bd15-219503e08dba_image_for_silan_45291610_580x435.jpg"
+ ],
+ "vehicleTransmission": "Düz",
+ "color": "Lacivert",
+ "productionDate": 1998,
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": 330000,
+  "unitCode": "KMT"
+ },
+ "offers": {
+  "@type": "Offer",
+  "availability": "https://schema.org/InStock",
+  "priceCurrency": "TRY",
+  "url": "https://www.arabam.com/ilan/galeriden-satilik-honda-civic-1-4-s/klimali-1-4is/45291610",
+  "description": "",
+  "price": 425000
+ }
+}
