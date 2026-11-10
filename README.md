@@ -1,5 +1,8 @@
 # arabam-mcp 🇹🇷
 
+> ⚠️ **Status: DEGRADED (2026-11-10)** — arabam.com currently blocks automated access: the connection is reset on every fingerprint profile (chrome120 / chrome131 / safari17_0) from this environment. All tools return a clear "blocked" error until the site allows access again. Check `arabam_health` for the live status.
+
+
 mcp-name: io.github.mohammad-abbasi-sh/arabam-mcp
 
 Unofficial **read-only** MCP server for **arabam.com**, Türkiye's used-car marketplace (~176k listings) — live search, full listing details with the 19-field spec table, brand/model browser, and market price stats.
