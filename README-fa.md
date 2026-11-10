@@ -13,7 +13,7 @@
   "mcpServers": {
     "arabam": {
       "command": "uvx",
-      "args": ["arabam-mcp"]
+      "args": ["arabam-mcp==0.1.0"]
     }
   }
 }
@@ -49,7 +49,7 @@
 ## توسعه
 
 ```bash
-python3 -m venv .venv && .venv/bin/pip install "mcp<2" httpx pytest
+python3 -m venv .venv && .venv/bin/pip install "mcp<2" curl-cffi pytest
 .venv/bin/python -m pytest tests/ -q
 ```
 
