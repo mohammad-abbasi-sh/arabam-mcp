@@ -1,5 +1,8 @@
 # arabam-mcp 🇹🇷
 
+> ⚠️ **Durum: BOZUK (2026-11-10)** — arabam.com şu anda otomatik erişimi engelliyor: her profilde bağlantı sıfırlanıyor. Tüm araçlar net bir "engellendi" hatası döndürür. Canlı durum için `arabam_health` kullanın.
+
+
 Türkiye'nin ikinci el otomobil pazaryeri **arabam.com** için resmi olmayan, **salt okunur** MCP sunucusu — canlı ilan arama, 19 alanlık özellik tablosuyla tam ilan detayı, marka/model tarama ve piyasa fiyat istatistikleri.
 
 > Mohammad Abbasi tarafından "Turkey MCP factory" (Sepehr tarzı hat) kapsamında geliştirildi. arabam.com ile bağlantısı yoktur.
