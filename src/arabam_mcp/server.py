@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime, timezone
 import sys
 
 from mcp.server.fastmcp import FastMCP
@@ -26,8 +27,24 @@ server spaces requests ~0.8s apart. Built by Mohammad Abbasi \
 """
 
 
+_SOURCE = "arabam.com"
+_DISCLAIMER = "Unofficial read-only data from arabam.com; verify on the site before acting on it."
+
+
+def _envelope() -> dict:
+    return {
+        "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "source": _SOURCE,
+        "disclaimer": _DISCLAIMER,
+    }
+
+
+def _ok(payload: dict) -> str:
+    return json.dumps({**_envelope(), **payload}, ensure_ascii=False)
+
+
 def _err(e: Exception) -> str:
-    return json.dumps({"error": str(e)}, ensure_ascii=False)
+    return _ok({"error": str(e)})
 
 
 @mcp.tool()
@@ -41,11 +58,8 @@ km, price_try and detail URL."""
         rows = _listings.parse_search(html)
     except _http.ArabamError as e:
         return _err(e)
-    return json.dumps(
-        {"brand": brand, "model": model, "page": page,
-         "count": len(rows), "listings": rows},
-        ensure_ascii=False,
-    )
+    return _ok({"brand": brand, "model": model, "page": page,
+         "count": len(rows), "listings": rows})
 
 
 @mcp.tool()
@@ -58,7 +72,7 @@ hasar kaydı, Kimden…), images. url: the listing URL from arabam_search."""
         d = _listings.parse_detail(html)
     except _http.ArabamError as e:
         return _err(e)
-    return json.dumps(d, ensure_ascii=False)
+    return _ok(d)
 
 
 @mcp.tool()
@@ -70,8 +84,7 @@ def arabam_list_brands() -> str:
         brands = _listings.parse_brands(html)
     except _http.ArabamError as e:
         return _err(e)
-    return json.dumps(
-        {"count": len(brands), "brands": brands}, ensure_ascii=False)
+    return _ok({"count": len(brands), "brands": brands})
 
 
 @mcp.tool()
@@ -84,13 +97,9 @@ brand: slug like "bmw" (from arabam_list_brands)."""
     except _http.ArabamError as e:
         return _err(e)
     if not models:
-        return json.dumps(
-            {"error": f"no models found for brand {brand!r} — "
-                      "check the slug with arabam_list_brands"},
-            ensure_ascii=False)
-    return json.dumps(
-        {"brand": brand, "count": len(models), "models": models},
-        ensure_ascii=False)
+        return _ok({"error": f"no models found for brand {brand!r} — "
+                      "check the slug with arabam_list_brands"})
+    return _ok({"brand": brand, "count": len(models), "models": models})
 
 
 @mcp.tool()
@@ -109,7 +118,17 @@ average price (TRY) across the first N search pages \
         return _err(e)
     stats = _listings.price_stats(rows)
     stats.update({"brand": brand, "model": model, "pages_scanned": pages})
-    return json.dumps(stats, ensure_ascii=False)
+    return _ok(stats)
+
+
+@mcp.tool()
+def arabam_health() -> str:
+    """Check whether arabam.com is reachable right now.
+
+    Returns status ok (HTTP 200), blocked (HTTP 403/429 — bot wall or
+    rate limit) or error, plus the HTTP status and the probed URL.
+    One polite request; it does not fetch any listings."""
+    return _ok(_http.health_check())
 
 
 def main() -> None:
