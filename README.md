@@ -18,7 +18,7 @@ Add to your MCP client config (stdio):
   "mcpServers": {
     "arabam": {
       "command": "uvx",
-      "args": ["arabam-mcp==0.1.0"]
+      "args": ["arabam-mcp==0.1.1"]
     }
   }
 }
