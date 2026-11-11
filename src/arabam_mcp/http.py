@@ -96,8 +96,10 @@ def fetch(url: str) -> str:
     if wait > 0:
         time.sleep(wait)
     try:
-        r = _request(url, _HEADERS)
-    except httpx.HTTPError as e:
+        resp = _request(url, _HEADERS)
+    except ArabamError:
+        raise
+    except Exception as e:
         raise ArabamError(f"network error fetching {url}: {e}") from e
     _last_fetch = time.monotonic()
     if resp.status_code == 403:
@@ -108,9 +110,9 @@ def fetch(url: str) -> str:
         raise ArabamError(
             "arabam.com rate-limited the request (HTTP 429) — try again later"
         )
-    if r.status_code != 200:
-        raise ArabamError(f"arabam.com returned HTTP {r.status_code} for {url}")
-    text = r.text
+    if resp.status_code != 200:
+        raise ArabamError(f"arabam.com returned HTTP {resp.status_code} for {url}")
+    text = resp.text
     if 'name="description" content="px-captcha"' in text or "PerimeterX" in text:
         raise ArabamError("arabam.com is showing a bot check for this request")
     return text
